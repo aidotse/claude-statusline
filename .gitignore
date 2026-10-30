@@ -1,0 +1,22 @@
+# OS metadata
+*:Zone.Identifier
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Personal Claude Code / agent tooling state
+CLAUDE.local.md
+.claude/settings.local.json
+.serena/
+
+# Scratch output from manual testing (forecast history and its temp files)
+claude_statusline_5h_*
+*.tmp
